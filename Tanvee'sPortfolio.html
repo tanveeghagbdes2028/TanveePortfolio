@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    .menubar {
+    display: grid;
+    grid-template-columns: 50% 9% 10% 10% 10% 10% 10%;
+    background-color:rgb(255, 191, 0);
+    color: aliceblue;
+}
+
+    .centreview {
+        text-align: center;
+       font-size: xxx-large;
+        color:rgb(255, 191, 0) ;
+    }
+     .imggrid {
+    margin:60px;
+            display: inline-block;
+            width: 140px;
+         padding-left: 500px;
+            height: 250px;}
+    .box {
+  position: relative; 
+  width: 300px;
+}
+
+.text {
+  position: absolute;  
+  top: -515px;
+  left: 50%;         
+  text-align: center;
+  color:rgb(243, 231, 196);
+  font-size: 100px;
+  padding-left: 125%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photo {
+    position: relative;
+  width: 120%; 
+  padding-left: 180%;
+  top: -358px;
+}
+.textbottom {
+  position: absolute;
+  bottom: 60px;
+  left: 42%;
+  font-size: 35px;
+  font-family: cursive;
+  display: block;    
+  width: 300px;        
+  text-align: center;  
+}
+.resumetext {
+text-align: center;
+  font-size: 150%;
+  background-color: rgb(255, 191, 0);
+  padding: 28px 0;
+  margin-top: -407px;
+  padding-top: 3%; 
+  
+}
+.Headline {
+    font-size:18px;
+    padding-left: 9%; 
+    color: rgb(255, 191, 0); 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.about-section {
+  display: flex;       
+  align-items: center;           
+  margin-bottom: -50px;
+  
+  
+}
+
+.cutoutimg {
+  position: relative;   
+  display: inline-block;
+  
+}
+.cutoutstyle {
+  width: 400px;        
+}
+
+.hello {
+  position: absolute;   
+  top: 255px;
+  right: 20px;
+  font-size: 40px;
+  color: white;
+}
+.icon {
+    margin-top: 60px;
+    float: left;
+    width: 500px;
+    height: 110px;
+    margin-left: 60px;
+    padding-top: 50px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+.hero-right { position: relative; overflow: hidden; border-radius:10px; }
+.bg-video {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
+  display: block;
+  margin-top: -95px;
+  
+}
+.hero-overlay-content {
+  position: absolute;
+  left: 16px;
+  bottom: 16px;
+  z-index: 2;
+  color: #fff;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+.imgbox {
+    display: inline-block;
+    width: 260px;    
+    margin: 20px;     
+    vertical-align: top;  
+}
+.img {
+
+    width: 10px;
+    height: 10p;
+}
+.content-title {
+    font-size: 40px;
+    font-weight: 700;
+    color: #f3b50a;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.pill-container {
+    display: flex;
+    gap: 40px;
+  
+    padding: 20px;
+}
+
+.pill {
+    width: 120px;
+    border-radius: 60px;
+    position: relative;
+}
+
+.image-pill img {
+    width: 120px;
+    border-radius: 50%;
+    margin-top: px;
+    display: block;
+}
+
+.image-pill p {
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.page {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title {
+    color: #663cb3;
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.top-section {
+    display: flex;
+}
+
+.text-block {
+    width: 55%;
+    font-size: 16px;
+}
+
+.main-label img {
+    width: 260px;
+    border-radius: 6px;
+}
+
+.palette {
+    display: flex;
+    gap: 40px;
+    margin-top: 40px;
+}
+
+.dot {
+    width: 90px;
+    height: 45px;
+    border-radius: 50px;
+}
+.button-container {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.brand-btn {
+    background-color: #ffffff;
+    padding: 20px 120px;
+    border-radius: 50px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #20164D; }
+
+.internship-container {
+    display: flex;
+    gap: 60px; 
+    padding: 20px;
+}
+
+.internship-box h3 {
+    margin-bottom: 8px;
+    font-weight: 700;
+    color: rgb(247, 238, 211);  
+}
+
+.internship-box p {
+    margin: 4px 0;
+    color:rgb(245, 234, 201) ;
+}
+.bgbodyaboutme {
+    background-color: #f3b50a;
+}
+.charolettebg {
+    background-color: #f9e071;
+}
+.velorabg {
+    background-color: #f1dbbc;
+}
+.kiddytalebg {
+    background-color: #0fb24c;
+}
+.tanveerealtorbg {
+    background-color: #20164D;
+}
+    </style>
+<body style="background-color: rgb(248, 242, 224);">
+    
+    <div class="menubar"> <h3 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left: 10px;">Tanvee Ghag</h3>
+ <div style="padding: 15px;margin:1px;">
+ <a href="Home">Home</a>
+</div>
+    <div style="padding: 15px;"><a href="#">About Me</a></div>
+    <div style="padding: 15px;margin:2px;"><a href="#">Content</a></div>
+    <div style="padding: 15px;"><a href="#">My Projects</a></div>
+    <div style="padding: 15px;"><a href="#">Contact</a></div>
+     </div>
+     <br><br><br><br>
+     <br>
+     <video class="bg-video" autoplay muted loop playsinline poster="assets/hero-poster.jpg">
+  <source src="Untitled file (1).mp4" type="video/mp4">
+  <source src="Untitled file (1).mp4" type="video/webm">
+</video>
+      <div class="box">
+        
+        <p class="text">Portfolio</p>
+        
+      <img src="ChatGPT_Image_Nov_4__2025__02_18_40_PM-removebg-preview.png" class="photo">
+    
+ </div>
+ <div class="textbottom">Tanvee Ghag</div>
+ <br>
+ <br>
+ <div class="resumetext"> 
+ <a href="Tanvee Shyam Ghag Resume 1.jpg">Resume</a> 
+ </div>
+    
+<br>
+<br>
+<br> 
+<div class="bgbodyaboutme">
+<div style="font-size:40px; margin-bottom:-2%; color: rgb(246, 229, 179); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; padding-left: 5%;"> About Me</div>
+<br>
+<div class="about-section">
+<div class="Headline"; style="color: #f3e9cf;" >
+<pre>I am Tanvee Ghag, Second Year Communication Design Student 
+
+from Atlas SkillTech University. I am Creative and passionate about 
+
+learning new things. I love exploring things digitally, creating logos, 
+
+playing on softwares. My hobbies are to crochet, sketching, 
+
+crafting, playing badminton.</pre>
+</div>
+<div class="cutoutimg">
+<img src="Cutouttanvee.png" class="cutoutstyle">
+<div class="hello">Hello!
+</div> </div></div> 
+<br>
+<br>
+<h2 style="color: #f3e9cf; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Skills</h2>
+<img src="photoshop.png"; width="30 ">
+<img src="illustrator.png"; width="30 ">
+<img src="indesign.png"; width="30 ">
+<img src="premiere-pro.png"; width="30 ">
+<img src="figma.png"; width="30 ">
+
+<h2 style="color: #ebe5d6; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Language</h2>
+<div class="brand-btn"; style="font-size: medium;">Marathi Hindi English</div>
+<h2 style="color: #f4eace; font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Experience</h2>
+<hr>
+<div class="internship-container">
+    <div class="internship-box">
+        <h3>Reliable Recycler pvt.</h3>
+        <p>-Social Media Management</p>
+        <p>5 June 2025– 5 July 2025</p>
+    </div>
+
+    <div class="internship-box">
+        <h3>Atlas University</h3>
+        <p>-Summer School Internship</p>
+        <p>28 May 2025– 18 June 2025</p>
+    </div>
+
+    <div class="internship-box">
+        <h3>InAmigos</h3>
+        <p>-Graphic design Internship</p>
+        <p>19 Aug 2025– 1 Sep 2025</p>
+    </div>
+</div></div>
+<div class="content-title">Content</div>
+<div class="pill-container">
+
+    <div class="pill" style="height: 380px; background:#83b5ac;">
+    </div>
+
+    <div class="pill" style="height: 330px; background:#b6e7ff;">
+    </div>
+
+    <div class="pill image-pill" style="height: 340px; background:#f9d878;">
+        <img src="Wine Label Charolette.jpg">
+        <p>Charolette<br>Wine</p>
+    </div>
+
+    <div class="pill image-pill" style="height: 420px; background:#9b602d;">
+        <img src="Veora Vegan Cafe logo rgb.jpg"; style="border-radius:1%">
+        <p>Velora<br>Vegan Cafe</p>
+    </div>
+
+    <div class="pill image-pill" style="height: 450px; background:#0fb24c;">
+        <img src="Kiddy Tale.png"; style="border-radius: 4%;">
+        <p>Kiddy<br>Tale</p>
+    </div>
+
+    <div class="pill image-pill" style="height: 430px; background:#12155f;">
+        <img src="Tannveerealtors.png" ; style="border-radius:45%; margin-top: 20px;">
+        <p>Tanvee<br>Realtors</p>
+    </div>
+
+    <div class="pill" style="height: 360px; background:#ff9aa8;">
+    </div>
+
+    <div class="pill" style="height: 500px; background:#c7b0e8;">
+    </div>
+
+    <div class="pill" style="height: 390px; background:#e4ceaa;">
+    </div>
+
+</div>
+<div class="page">
+<div class="charolettebg">
+    <h2 class="title">1. Charolette Wine</h2>
+
+    <div class="top-section">
+        <div class="text-block">
+            <p style="color: #663cb3;"><b>Rococo Inspired Wine Label Design.</b></p>
+
+            <ul style="color: #663cb3;">
+                <li>Colour Palette – Pastels colours, mint, cream, lavender, yellow, green</li>
+                <li>Motifs – vines, arabesques, asymmetrical curves</li>
+                <li>Visual Elements – Light, airy compositions, delicate work, feminine elegance</li>
+                <li>Rococo iconic design features</li>
+                <li>Paintings – “The Swing” and “Madame de Pompadour” show carefree movement & luxury</li>
+                <li>Name of wine – Charolette (means freedom) with decorative font and cream text</li>
+            </ul>
+        </div>
+
+        <div class="main-label">
+            <img src="Wine Label Charolette.jpg">
+        </div>
+    </div>
+
+<img src="Wine Image layout.png"; style="width: 100%;">
+    <div class="palette">
+        <div class="dot" style="background:#d49cd7;"></div>
+        <div class="dot" style="background:#77a88f;"></div>
+        <div class="dot" style="background:#ebd06a;"></div>
+        <div class="dot" style="background:#f7a1a1;"></div>
+    </div>
+</div>
+<div class="page">
+<div class="velorabg">
+    <h2 class="title"; style="color: #633705;">2. Velora Cafe</h2>
+
+    <div class="top-section">
+        <div class="text-block">
+            <p ; style="color: #633705;"><b>Romanticism Inspired Velora Cafe Design.
+Design concept-</b></p>
+
+            <ul ; style="color: #633705;">
+                <li>Colour Palette- Brown, green, cream</li>
+                <li>Motifs-swirls</li>
+                <li>Visual Elements- swirl logo of two faces , cup and heart that also indicated leaf for vegan</li>
+                <li>Typography - Playfair Display font</li>
+                <li>Romantic faces sown in the logo for Romanticism</li>
+                <li>Name of vegan cafe- Velora (Velora in our brand is for harmony — where nature, soul, and flavor meet)</li>
+            </ul>
+        </div>
+
+        <div class="main-label">
+            <img src="Veora Vegan Cafe logo rgb.jpg">
+        </div>
+    </div>
+
+<img src="VeloraImagelayout.png"; style="width: 100%;">
+</div>
+</div>
+<div class="page">
+<div class="kiddytalebg">
+    <h2 class="title"; style="color: #8E5424;">3. From Seed To Spoon</h2>
+
+    <div class="top-section">
+        <div class="text-block">
+
+            <ul; style="color: #8E5424;">
+                <li>Designed a 6×6-inch children’s book for ages 3–6, showing the journey of vegetables from seed to spoon.</li>
+                <li>Teaches children about the hard work of farmers and the importance of eating healthy food.</li>
+                <li>Encourages kids to choose fresh vegetables over junk food by understanding where food comes from.</li>
+                <li>Initial version in Adobe Illustrator lacked engagement, colour use, and visual hierarchy.</li>
+                <li>Redesigned in Adobe Photoshop with bright colours, clear hierarchy, and interactive elements to increase engagement.</li>
+                <li>Final book features simple language and playful illustrations suitable for young children.</li>
+                <li>The story follows a farmer and a curious young girl who explores the farm and learns about each stage of farming.</li>
+            </ul>
+        </div>
+
+        <div class="main-label">
+            <img src="Kiddy Tale.png">
+        </div>
+    </div>
+
+<img src="front back.jpg"; style="width: 30%;">
+<img src="1,2kt.png"; style="width: 30%;">
+<img src="2,3kt.png"; style="width: 30%;">
+</div>
+ <div class="palette">
+        <div class="dot" style="background:#C3322D;"></div>
+        <div class="dot" style="background:#F8D0DB;"></div>
+        <div class="dot" style="background:#5C7CA3;"></div>
+        <div class="dot" style="background:#FAA341;"></div>
+        <div class="dot" style="background:#8E5424;"></div>
+        <div class="dot" style="background:#E5DBC0;"></div>
+        <div class="dot" style="background:#EEE37A;"></div>
+        <div class="dot" style="background:#C9EBF7;"></div>
+    </div>
+    </div>
+<div class="tanveerealtorbg">
+    <div class="page">
+
+    <h2 class="title"; style="color: #fff;">4. Tanvee Realtors</h2>
+
+    <div class="top-section">
+        <div class="text-block">
+
+            <ul ; style="color: #fff;">
+                <li>Designed a logo and brand manual for a real estate company named Tanvee’s Realtors.</li>
+                <li>Defined the vision and mission to set the direction for the brand identity.</li>
+                <li>Conducted research and explored multiple logo concepts based on the brand’s core values.</li>
+                <li>Improved the design through faculty feedback and multiple iterations.</li>
+                <li>Finalized a brand manual that clearly communicates the brand’s visual identity, tone, and personality.</li>
+                
+            </ul>
+        </div>
+
+        <div class="main-label">
+            <img src="Tannveerealtors.png">
+        </div>
+    </div>
+
+<img src="TRimagelayout.png"; style="width: 100%;">
+
+</div>
+<br>
+<div class="button-container">
+    <a href="https://drive.google.com/file/d/1-FaFV3CqqGEZZJ0ABv_FtZpvpCHlhZZr/view?usp=drive_link" class="brand-btn">View Brand Manual</a>
+    
+</div></div>
+<div class="page">
+
+    <h2 class="title"> Lets <i>Connect</i></h2>
+    <hr>
+   <h3> <b>Tanvee Ghag</b></h3>
+<pre>My goal is to create design that inspires, communicates, and 
+makes a difference to the way your audience experiences your
+brand. Let’s make it matter.</pre>
+
+<br>
+<h2><b>Contact</b></h2>
+<img src="user.png" ; width="30px "> 91+8291854949
+<br>
+<img src="gmail.png" ; width="30px"> tanveeghag@gmail.com
+<br>
+<img src="linkedin.png" ; width="30px"> tanveeghag
+<br>
+<img src="instagram.png" ; width="30px"> @mydesignchapters
+<hr>
+Navigation
+<br>
+<a href="Home">Home</a>
+<br>
+<a href="#">Content</a>
+<br>
+<a href="#">My Projects</a>
+<br>
+</body>
